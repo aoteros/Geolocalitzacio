@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 21
+    compileSdkVersion 23
     buildToolsVersion '23.0.2'
 
     defaultConfig {
@@ -25,4 +25,5 @@ dependencies {
     compile 'com.google.code.gson:gson:2.2.4'
     compile 'com.octo.android.robospice:robospice:1.4.14'
     compile 'com.octo.android.robospice:robospice-retrofit:1.4.14'
+    compile 'com.google.android.gms:play-services:8.4.0'
 }

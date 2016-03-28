@@ -1,21 +1,22 @@
 package net.infobosccoma.titulars.network;
 
 
-import net.infobosccoma.titulars.models.business.entities.Titular;
-
 import com.octo.android.robospice.request.retrofit.RetrofitSpiceRequest;
 
+import net.infobosccoma.titulars.models.business.entities.PuntsInteres;
 
-public class TitularsRetrofitSpiceRequest extends RetrofitSpiceRequest<Titular.Llista, TitularsAPI> {
+
+public class TitularsRetrofitSpiceRequest extends RetrofitSpiceRequest<PuntsInteres.Llista, TitularsAPI> {
 
     public TitularsRetrofitSpiceRequest() {
-        super(Titular.Llista.class, TitularsAPI.class);
+        super(PuntsInteres.Llista.class, TitularsAPI.class);
     }
 
     @Override
-    public Titular.Llista loadDataFromNetwork() {
+    public PuntsInteres.Llista loadDataFromNetwork() {
         return getService().getAll();
     }
+
 
 }
 

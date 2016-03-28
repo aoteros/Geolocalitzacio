@@ -5,7 +5,6 @@ import android.support.v7.app.ActionBarActivity;
 import com.octo.android.robospice.SpiceManager;
 import com.octo.android.robospice.request.listener.RequestListener;
 
-import net.infobosccoma.titulars.models.business.entities.Titular;
 import net.infobosccoma.titulars.network.TitularsRetrofitSpiceService;
 
 /**
@@ -35,7 +34,6 @@ public abstract  class BaseActivity extends ActionBarActivity {
     public SpiceManager getSpiceManager() {
         return spiceManager;
     }
-
     public abstract RequestListener<?> getListListener();
     public abstract RequestListener<?> getUpdateListener();
 

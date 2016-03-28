@@ -5,7 +5,7 @@ import com.octo.android.robospice.retrofit.RetrofitGsonSpiceService;
 
 public class TitularsRetrofitSpiceService extends RetrofitGsonSpiceService {
 
-    private final static String BASE_URL = "http://infobosccoma.net/pmdm/titularscloud/v1/"; //http://gitlab.infobosccoma.net";
+    private final static String BASE_URL = "http://infobosccoma.net/pmdm/pois/v1"; //http://gitlab.infobosccoma.net";
 
     @Override
     public void onCreate() {
